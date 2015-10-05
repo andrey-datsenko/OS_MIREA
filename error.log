@@ -1,0 +1,10 @@
+pid.c:7:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^
+pid.c:29:10: error: too few arguments to function call, expected 1, have 0
+                         wait();
+                         ~~~~ ^
+/usr/include/sys/wait.h:248:1: note: 'wait' declared here
+pid_t   wait(int *) __DARWIN_ALIAS_C(wait);
+^
+1 warning and 1 error generated.
