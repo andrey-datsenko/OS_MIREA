@@ -30,7 +30,7 @@ int main()
 			 fprintf(PARENTS, "%d" , getpid());
 			 fclose(PARENTS);
 			
-			 printf("PARENTS: Я создал файл 'file_%d.txt' и записал в него PID и PID моего потомка\n", getpid());
+			 printf("PARENTS: Я создал файл 'file_%d.txt' и записал в него PID\n", getpid());
 			 printf("PARENTS: Жду завершения потомка\n");
 			 wait(NULL);
 			 printf("\nВсе good\n");}
