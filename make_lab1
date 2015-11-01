@@ -1,2 +1,2 @@
-lab2: lab2.c
-	gcc -o lab2 lab2.c -lncurses -lpthread
+lab1: lab1.c
+	gcc -o lab1 lab1.c
